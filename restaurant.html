@@ -30,7 +30,7 @@
         <div class="pl-4 flex items-center">
           <a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
             <!--Icon from: http://www.potlabicons.com/ -->
-            <img src="logo.png" style="height: 52px !important;">
+            <img src="logo.png" style="height: 60px !important;">
           </a>
         </div>
        
@@ -245,7 +245,7 @@
           <div class="flex-1 mb-6 text-black">
             <a class="text-pink-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
               <!--Icon from: http://www.potlabicons.com/ -->
-              <img src ="logo.png" style="height:52px !important"/>
+              <img src ="logo.png" style="height:60px !important"/>
             </a>
           </div>
           <!-- <div class="flex-1">
@@ -321,10 +321,10 @@
 
         if (scrollpos > 10) {
           header.classList.add("bg-white");
-          navaction.classList.remove("bg-white");
-          navaction.classList.add("gradient");
-          navaction.classList.remove("text-gray-800");
-          navaction.classList.add("text-white");
+          // navaction.classList.remove("bg-white");
+          // navaction.classList.add("gradient");
+          // navaction.classList.remove("text-gray-800");
+          // navaction.classList.add("text-white");
           //Use to switch toggleColour colours
           for (var i = 0; i < toToggle.length; i++) {
             toToggle[i].classList.add("text-gray-800");
@@ -335,10 +335,10 @@
           navcontent.classList.add("bg-white");
         } else {
           header.classList.remove("bg-white");
-          navaction.classList.remove("gradient");
-          navaction.classList.add("bg-white");
-          navaction.classList.remove("text-white");
-          navaction.classList.add("text-gray-800");
+          // navaction.classList.remove("gradient");
+          // navaction.classList.add("bg-white");
+          // navaction.classList.remove("text-white");
+          // navaction.classList.add("text-gray-800");
           //Use to switch toggleColour colours
           for (var i = 0; i < toToggle.length; i++) {
             toToggle[i].classList.add("text-white");
@@ -346,8 +346,8 @@
           }
 
           header.classList.remove("shadow");
-          navcontent.classList.remove("bg-white");
-          navcontent.classList.add("bg-gray-100");
+          // navcontent.classList.remove("bg-white");
+          // navcontent.classList.add("bg-gray-100");
         }
       });
     </script>
