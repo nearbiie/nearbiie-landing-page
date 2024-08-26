@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nearbiie - Bringing your neighbourhood closer</title>
+    <style>
+        body {
+            font-family: 'Source Sans Pro', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .logo {
+            text-align: left;
+        }
+
+        .logo img {
+            height: auto;
+        }
+
+        .row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .column {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+            padding-top:0px;
+        }
+
+        .separator {
+            width: 1px !important;
+            background-color: #000 !important;
+            height: 411px !important;
+            margin: 0 20px !important;
+        }
+
+        .qr-code img {
+            max-width: 100%;
+            height: auto;
+        }
+        .line {
+        transform-origin: 0 100%;
+        }
+
+        .black {
+            border:1px solid #000;
+            height: 486px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Logo Section -->
+        <div class="logo">
+            <img src="logo.png" style="height: 82px !important;" alt="Logo">
+        </div>
+
+        <!-- Two-Column Layout -->
+        <div class="row">
+            <div class="column content">
+                <h1>Connect with your local hood like never before</h1>
+                <p><h2>Discover offers, events, products from your neighborhood shops, all in one place. Launching soon!</h2></p>
+                <h4>*Make a bill for 2000/- Rs and win exciting gifts.</h4>
+                <p style="font-size: 12px; color: #555; text-align: center; margin-top: 20px;">
+                    Disclaimer: For any inquiries or issues, please contact us at <a href="tel:+91 63004 86316" style="color: #0066cc; text-decoration: none;">+91 63004 86316</a>.
+                    <strong>Important:</strong> <b>Nearbiie</b> will never ask you to share your OTP or transfer money in any form. Please don't hesitate to contact us in case of any issues.
+                </p>
+                
+            </div>
+            
+            <div class="line black"></div>
+            
+            <div class="column qr-code">
+                <h2>Scan the QR Code</h2>
+                <img src="bk-qr.png" alt="QR Code">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
